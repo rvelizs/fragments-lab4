@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"> <!-- 90 degrees for vertical gradient -->
+
+                <!-- Define the colors and their positions -->
+                <item android:color="#474444" android:offset="0"/>  <!-- Start color -->
+                <item android:color="#9F9C9C" android:offset="0.21"/> <!-- Middle color -->
+                <item android:color="#FFFDFD" android:offset="0.87"/>  <!-- End color -->
+
+            </gradient>
+        </shape>
+    </item>
+</selector>
