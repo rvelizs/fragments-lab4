@@ -93,37 +93,62 @@
             android:orientation="horizontal"
             android:paddingVertical="10dp">
 
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Mas visitados"
-                android:backgroundTint="@color/principal"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                android:layout_marginHorizontal="5dp" />
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Cercanos"
-                android:backgroundTint="@color/principal"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                android:layout_marginHorizontal="5dp"/>
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Recientes"
-                android:backgroundTint="@color/principal"
-                android:textColor="@color/white"
-                android:textSize="10dp"
-                android:layout_marginHorizontal="5dp"/>
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/button_toggle_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider"
+                android:showDividers="middle"
+                app:singleSelection="true"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_mas_visitados"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mas visitados"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginHorizontal="5dp"
+                    app:cornerRadius="14dp"
+                    app:backgroundTint="@color/principal"
+                    app:icon="@null" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_cercanos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cercanos"
+                    android:textColor="@color/white"
+                    app:cornerRadius="14dp"
+                    android:textSize="10sp"
+                    android:layout_marginHorizontal="5dp"
+                    app:backgroundTint="@color/principal"
+                    app:icon="@null" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_recientes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:cornerRadius="14dp"
+                    android:text="Recientes"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:layout_marginHorizontal="5dp"
+                    app:backgroundTint="@color/principal"
+                    app:icon="@null" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
         </LinearLayout>
 
-
-
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_places"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"/>
 
     </LinearLayout>
 </FrameLayout>
