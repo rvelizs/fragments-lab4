@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OlvidoPassCod">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="506dp"
+            android:layout_height="894dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aqpnoche"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <FrameLayout
+            android:layout_width="348dp"
+            android:layout_height="554dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="131dp"
+            android:background="#FAFAFA"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="63dp"
+            android:src="@drawable/logo_app_3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="217dp"
+            android:text="¿Olvidaste tu"
+            android:textColorLink="#000000"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="257dp"
+            android:text="contraseña?"
+            android:textColorLink="#000000"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="318dp"
+            android:text="Si no te ha llegado un correo"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="345dp"
+            android:text="electrónico, verifica en bandeja de"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="372dp"
+            android:paddingStart="1px"
+            android:paddingLeft="1px"
+            android:text="correo no deseado"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="425dp"
+            android:paddingStart="1px"
+            android:paddingLeft="1px"
+            android:text="Ingresa el código de 6 digitos"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="484dp"
+            android:background="#FCF0BF"
+            android:ems="10"
+            android:hint="__"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingStart="2px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="484dp"
+            android:background="#FCF0BF"
+            android:ems="10"
+            android:hint="__"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingStart="2px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="484dp"
+            android:background="#FCF0BF"
+            android:ems="10"
+            android:hint="__"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingStart="2px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="214dp"
+            android:layout_marginTop="484dp"
+            android:background="#FCF0BF"
+            android:ems="10"
+            android:hint="__"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingStart="2px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="259dp"
+            android:layout_marginTop="484dp"
+            android:background="#FCF0BF"
+            android:ems="10"
+            android:hint="__"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingStart="2px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="304dp"
+            android:layout_marginTop="484dp"
+            android:background="#FCF0BF"
+            android:ems="10"
+            android:hint="__"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingStart="2px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="306dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="543dp"
+            android:background="#FF7F50"
+            android:backgroundTint="@color/material_dynamic_secondary20"
+            android:text="Confirmar código"
+            android:textColorLink="#FF7F50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="306dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="604dp"
+            android:background="#FF7F50"
+            android:backgroundTint="@color/material_dynamic_secondary20"
+            android:text="Reenviar código"
+            android:textColorLink="#FF7F50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
